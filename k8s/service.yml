@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: config-service
   labels:
+    platform: polar-catalog
     app: config-service
 spec:
   type: ClusterIP
