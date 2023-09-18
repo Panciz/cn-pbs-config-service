@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: ghcr.io/panciz/config-service
+          image: config-service
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
